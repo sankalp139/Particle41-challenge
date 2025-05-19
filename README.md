@@ -16,7 +16,7 @@ Linux: Install Docker Engine using your distro's package manager:
 1.	To pull the docker image run:
                 docker pull sankalp139/simple-time-service:latest
 
-2.	once the image is pulled you can run ‘docker image ls’ to verify
+2.	once the image is pulled successfully you can run ‘docker image ls’ to verify
     
 3.	To run the docker image locally:
        docker run -p 5000:5000 simple-time-service:latest
@@ -53,7 +53,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 ### Steps:
 
-1.	Clone the Repository and copy the entire folder named Task-2
+1.	Clone the Repository and copy the entire folder named 'terraform'
 2.	Go to the folder location in Terminal and run ‘terraform init’
 3.	Run Terraform plan to see the set of resources available for creation
 4.	To verify check that there are 29 resources waiting to be created.
