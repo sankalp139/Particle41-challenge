@@ -1,0 +1,26 @@
+# Terraform state and plan files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Sensitive data files (just in case)
+*.pem
+*.key
+*.crt
+
+# Local .terraform directory (contains downloaded provider plugins/modules)
+.terraform/
+
+# Environment overrides and tfvars
+terraform.tfvars
+*.auto.tfvars
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
