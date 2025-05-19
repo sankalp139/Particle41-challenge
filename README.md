@@ -19,7 +19,7 @@ Linux: Install Docker Engine using your distro's package manager:
 2.	once the image is pulled successfully you can run ‘docker image ls’ to verify
     
 3.	To run the docker image locally:
-       docker run -p 5000:5000 simple-time-service:latest
+       docker run -p 5000:5000 sankalp139/simple-time-service:latest
 
 
 4.	To check whether the image is running 
