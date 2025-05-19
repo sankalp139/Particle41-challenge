@@ -1,9 +1,9 @@
 # Particle41-challenge
-Task-1
+## Task-1
 
 The docker image for simpleTimeService is created and pushed to Docker Hub.
 
-Pre-requisites:
+### Pre-requisites:
 In order to run the Docker image, you need to have Docker installed on your system
 
 Windows/macOS: Install Docker Desktop https://docs.docker.com/desktop/setup/install/windows-install/
@@ -11,7 +11,7 @@ Linux: Install Docker Engine using your distro's package manager:
             sudo apt update
            sudo apt install docker.io  
 
-Steps:
+### Steps:
 
 1.	To pull the docker image run:
                 docker pull sankalp139/simple-time-service:latest
@@ -32,10 +32,11 @@ Steps:
 
 
 
-Task-2
+## Task-2
+
 To run the application container in cloud I have used AWS .
 
-Pre-requisites:
+### Pre-requisites:
 
 In order to run the Terraform file you need to setup AWS CLI on your system 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
@@ -50,7 +51,7 @@ Ensure that Terraform is installed on your system.
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 
-Steps:
+### Steps:
 
 1.	Clone the Repository and copy the entire folder named Task-2
 2.	Go to the folder location in Terminal and run ‘terraform init’
